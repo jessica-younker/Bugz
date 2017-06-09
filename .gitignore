@@ -1,0 +1,14 @@
+Bugz-API/FrontEnd/lib/node_modules
+Bugz-API/FrontEnd/app/values
+
+.DS_Store
+*.DS_Store
+
+*.sqlite3
+*.db
+
+/.github
+migrations/
+settings.py
+bin
+env
