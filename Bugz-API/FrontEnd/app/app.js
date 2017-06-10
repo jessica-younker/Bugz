@@ -23,7 +23,15 @@ app.config(function($routeProvider){
         templateUrl: "partials/login.html",
         controller: "LoginCtrl"
     }).
-    otherwise("/login");
+    when("/news", {
+        templateUrl: "partials/news.html",
+        controller: "NewsCtrl"
+    }).
+    when("/graph", {
+        templateUrl: "partials/graph.html",
+        controller: "GraphCtrl"
+    }).
+    otherwise("/");
 });
 
 // app.run(($location, FBCreds) => {
