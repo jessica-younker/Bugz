@@ -31,6 +31,10 @@ app.config(function($routeProvider){
         templateUrl: "partials/graph.html",
         controller: "GraphCtrl"
     }).
+    when("/success", {
+        templateUrl: "partials/success.html",
+        controller: "SuccessCtrl"
+    }).
     otherwise("/");
 });
 
